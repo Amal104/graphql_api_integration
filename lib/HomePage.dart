@@ -43,6 +43,7 @@ query {
                   child: ListTile(
                     leading: Image.network(data[index].image),
                     title: Text(data[index].name),
+                    subtitle: Text(data[index].species),
                   ),
                 );
               },
